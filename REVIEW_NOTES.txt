@@ -1,0 +1,8 @@
+Review notes before publishing
+
+- Confirm the original course/project materials may be shared publicly.
+- Confirm that the board used in the demonstration matches the ESP32-WROOM-DevKitC named in the source.
+- Check that COM7 and D13/D26/D36 match the actual setup.
+- The source's first threshold comment says 1.6 V but its condition uses > 1.4 V. Verify intended behaviour before editing.
+- The plot uses sample index, not measured elapsed time, despite the x-axis label.
+- No open-source license has been selected.
